@@ -39,10 +39,16 @@ Also people can consult a public side containing certain informations.
 represented by the component  QuestionComponent
 also here we have two categories:
 
-the info list:
+### the info list:
     concerning informations published in public by doctors
-the rumor list:
+### the rumor list:
     concerning false popular informations to be confirmed by doctors to enhance people to avoid them
+ ### functionnalities offered to doctors:
+ once a doctor is authenticated he is able to:
+ -Add event through add-event-component 
+-Consult A list of events using list-event-component 
+
+ 
       
 
 
