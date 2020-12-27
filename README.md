@@ -18,8 +18,6 @@ As well as normal people who can consult a public side containing certain inform
 ### for non-doctor user
 ### questions to ask
 represented by the component  QuestionComponent
-
-
 ### the info list:
     concerning informations published in public by doctors
 ### the rumor list:
