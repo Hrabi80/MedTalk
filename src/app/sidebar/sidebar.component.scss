@@ -6,9 +6,9 @@ $sans: 'Source Sans Pro', Helvetica, Arial, sans-serif;
 
 // COLORS
 $orange: #DF4500;
-$gray: #66625f;
-$gray-shine: #6d6866;
-$white-off: #DFDBD9;
+$gray: #bdd4e7;
+$gray-shine: #bcddeb;
+$white-off: #414141;
 
 // REUSABLE STYLES
 .unstyled{ list-style: none; padding: 0; margin: 0;
@@ -35,12 +35,12 @@ $white-off: #DFDBD9;
   a{
     display: block;
     padding: 1em 0;
-    color: $white-off;
+    color: rgb(43, 43, 43);
     text-decoration: none;
     transition: .15s linear color;
     
     &:hover{
-      color: #fff;
+      color: rgb(85, 83, 83);
       span{ color: $orange; }
     }
   }
@@ -72,7 +72,7 @@ $white-off: #DFDBD9;
     }
     
     &:hover{
-      color: #fff;
+      color: rgb(95, 93, 93);
     }
   }
 }

@@ -10,6 +10,8 @@ import { ViewPostComponent } from './post/view-post/view-post.component';
 import { UserProfileComponent } from './auth/user-profile/user-profile.component';
 import { AuthGuard } from './auth/auth.guard';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { AddEventComponent } from './add-event/add-event.component';
+import { ListEventComponent } from './list-event/list-event.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -22,7 +24,11 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: SidebarComponent,
    children:[
-    { path: 'create-post', component: CreatePostComponent, /*canActivate: [AuthGuard]*/ },
+    { path: 'create-post', component: CreatePostComponent,  },
+    { path: 'create-topic', component: CreateSubredditComponent,},
+    { path: 'list-event', component: ListEventComponent,},
+    { path: 'add-event', component: AddEventComponent,},
+    { path: 'view-post/:id', component: ViewPostComponent },
    ] },
 
 ];

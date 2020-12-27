@@ -26,6 +26,8 @@ import { ViewPostComponent } from './post/view-post/view-post.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { UserProfileComponent } from './auth/user-profile/user-profile.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import { ListEventComponent } from './list-event/list-event.component';
+import { AddEventComponent } from './add-event/add-event.component';
 
 
 @NgModule({
@@ -44,7 +46,9 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     ListSubredditsComponent,
     ViewPostComponent,
     UserProfileComponent,
-    SidebarComponent
+    SidebarComponent,
+    ListEventComponent,
+    AddEventComponent
   ],
   imports: [
     BrowserModule,

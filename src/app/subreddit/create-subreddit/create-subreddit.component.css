@@ -1,6 +1,8 @@
 .row{
-   margin-left: 30%;
+   margin-left: 20%;
+   margin-top: 15%;
 }
+
 .create-subreddit-container {
     margin-top: 10px;
     --post-line-color: #ccc;
