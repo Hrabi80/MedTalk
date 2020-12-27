@@ -24,6 +24,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'home', component: SidebarComponent,
    children:[
+    { path: 'list-post', component: HomeComponent },
     { path: 'create-post', component: CreatePostComponent,  },
     { path: 'create-topic', component: CreateSubredditComponent,},
     { path: 'list-event', component: ListEventComponent,},
