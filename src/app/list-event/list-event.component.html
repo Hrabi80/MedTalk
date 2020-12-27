@@ -1,52 +1,113 @@
 <div class="container">
-    <div class="row">
-      <hr />
-      <div class="col-md-9">
-        <div class="row post">
-          <div class="col-md-1">
- 
-          </div>
-          <div class="col-md-11">
-            <span>
-              <span class="subreddit-text"><a class="post-url" >Vlolunteering for hospital</a></span>
-              <span> . Posted
-                <span> 2h:30min</span>
-                by              
-                <a class="username" >Dr. Ritha</a>
-              </span>
+  <div class="row">
+    <hr />
+    <div class="col-md-9">
+      <div class="row post">
+        <div class="col-md-1">
+       
+        </div>
+        <div class="col-md-11">
+          <span>
+            <span class="subreddit-text"><a class="post-url" href="">Event</a></span>
+            <span> . Posted
+              <span> 2 hout ago </span>
+              by              
+              <a class="username" href="">Dr.Yosra}</a>
             </span>
-            <hr />
-            <a routerLink="post.url" class="post-title">Vlolunteering for hospital</a>
-            <div>
-              <p class="post-text" ></p>
-            </div>
-            <div class="post-comment">
-              <form >
-                <div class="form-group">
-                  <textarea class="form-control"  placeholder="Your Thoughts?"></textarea>
-                </div>
-                <button type="submit" class="login float-right">Comment</button>
-              </form>
-            </div>
-            <div style="margin-top: 60px;">
-              <div class="comment">
-                <div class="username">
-                  <a routerLink="/user/comment.username">Dr.Yosra</a>
-                </div>
-                <div>
-                  <p>2:55 pm</p>
-                </div>
-                <b>It's a great event !! i will participaate</b>
+          </span>
+          <hr />
+          <a routerLink="post.url" class="post-title">Volunteering for hospital</a>
+          <div>
+            <p class="post-text" [innerHtml]="post.description"></p>
+          </div>
+          <div class="post-comment">
+            <form [formGroup]="commentForm" (ngSubmit)="postComment()">
+              <div class="form-group">
+                <p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit es
+                </p>
               </div>
-              <hr />
+              <button type="submit" class="login float-right">Comment</button>
+            </form>
+          </div>
+          <div style="margin-top: 60px;" *ngFor="let comment of comments">
+            <div class="comment">
+              <div class="username">
+                <a routerLink="/user/comment.username">Dr.Ritha</a>
+              </div>
+              <div>
+                <p>1 hour ago</p>
+              </div>
+              <b>great event i will participate !!!</b>
             </div>
+            <hr />
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <app-side-bar></app-side-bar>
-        <app-subreddit-side-bar></app-subreddit-side-bar>
-      </div>
+    </div>
+    <div class="col-md-3">
+      
+
     </div>
   </div>
-  
+</div>
+
+<br>
+<div class="container">
+  <div class="row">
+    <hr />
+    <div class="col-md-9">
+      <div class="row post">
+        <div class="col-md-1">
+       
+        </div>
+        <div class="col-md-11">
+          <span>
+            <span class="subreddit-text"><a class="post-url" href="">Event</a></span>
+            <span> . Posted
+              <span> 2 hout ago </span>
+              by              
+              <a class="username" href="">Dr.Aymen</a>
+            </span>
+          </span>
+          <hr />
+          <a routerLink="post.url" class="post-title">Monthly talk</a>
+          <div>
+            <p class="post-text" [innerHtml]="post.description"></p>
+          </div>
+          <div class="post-comment">
+            <form [formGroup]="commentForm" (ngSubmit)="postComment()">
+              <div class="form-group">
+                <p>
+
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                  Duis aute irure dolor in reprehenderit in voluptate velit es
+                </p>
+              </div>
+              <button type="submit" class="login float-right">Comment</button>
+            </form>
+          </div>
+          <div style="margin-top: 60px;" *ngFor="let comment of comments">
+            <div class="comment">
+              <div class="username">
+                <a routerLink="/user/comment.username">Dr.Ritha</a>
+              </div>
+              <div>
+                <p>1 hour ago</p>
+              </div>
+              <b>nice i will be there ! </b>
+            </div>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      
+
+    </div>
+  </div>
+</div>
+

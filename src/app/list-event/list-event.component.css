@@ -48,3 +48,9 @@
       border-radius: 4px;
       padding:5px;
   }
+
+
+  .container{
+    width: 70%;
+    margin-left: 30%;
+  }
