@@ -45,8 +45,10 @@ also here we have two categories:
     concerning false popular informations to be confirmed by doctors to enhance people to avoid them
  ### functionnalities offered to doctors:
  once a doctor is authenticated he is able to:
- -Add event through add-event-component 
--Consult A list of events using list-event-component 
+* Add topics 
+* Add event through add-event-component 
+* Consult A list of events using list-event-component 
+ ### functionnalities to add in the future:
 
  
       
