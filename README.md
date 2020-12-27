@@ -7,7 +7,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Executable features
-A reddit-like forum between doctors that could facilitate the communication between them nationaly via topics/posts and comments as well as creating events and even having professional online meetings via our Video chat feature. this will eventually benefit the public by posting the topics that accuare enough votes to public interface as well as other important information. public users can also post their questions to this interface and get answers from our doctor community.
+Med talk is a forum between doctors that could facilitate the communication between them nationaly via topics/posts and comments as well as creating events and even having professional online meetings via our Video chat feature. this will eventually benefit the public by posting the topics that accuare enough votes to public interface as well as other important information. public users can also post their questions to this interface and get answers from our doctor community.
 
 ## Users of the app 
 The users of this application are the Tunisian doctors of all regions. 
