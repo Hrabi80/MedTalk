@@ -122,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-reddit-clone"
+    }
+  },
+  "defaultProject": "angular-reddit-clone",
+  "cli": {
+    "analytics": "f5cd1617-7fb3-42c1-bbb9-5b8a64087313"
+  }
 }
